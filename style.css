@@ -1,0 +1,37 @@
+/* configuração inicial do css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* fonte de qualquer coisa que estiver no site */
+    font-family: sans-serif;
+}
+ul {
+    list-style: none;
+
+}
+.site-header {
+    display: flex;
+    /* centralizar na vestical */
+    align-items: center;
+    /* distancia entre os itens */
+    gap: 50px;
+    padding: 20px;
+
+}
+
+.site-logo {
+    font-family: sans-serif;
+}
+.menu-list {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.menu-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #C92071;
+    font-size: 22px;
+
+}
